@@ -1,0 +1,38 @@
+<html>
+<body>
+<script>
+function Add()
+{var a,b,c
+a=Number(doument.getElementByld("first")value);
+b=Number(doument.getElementByld("second")value);
+c=a+b;
+doument.getElementByld("Answer").value=c;}
+function Sub()
+{var a,b.c
+a=Number(doument.getElementByld("first")value);
+b=Number(doument.getElementByld("second")value);
+c=a-b
+doument.getElementByld("Answer").value=c;}
+function Mul()
+a=Number(doument.getElementByld("first")value);
+b=Number(doument.getElementByld("second")value);
+c=a*b
+doument.getElementByld("Answer").value=c;}
+function Div()
+{var a,b,c
+a=Number(doument.getElementByld("first")value);
+b=Number(doument.getElementByld("second")value);
+c=a/b
+doument.getElementByld("Answer").value=c;}
+</script>
+</body>
+<body>
+Enter the first number:<inpute type="text"id="first"><br>
+Enter the second number:<inpute type="text"id="second"><br>
+<button onclick="add()">ADD</button>
+<button onclick="Sub()">SUB</button>
+<button onclick="Mul()">MUL</button>
+<button onclick="Div()">DIV</button>
+Answer:<inpute type="text"id="answer">
+</body>
+</html>
